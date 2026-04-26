@@ -1,0 +1,55 @@
+# =============================================================================
+# .gitignore — UVM 8B/10B Encoder Testbench
+# =============================================================================
+
+# ---- Questa / ModelSim ----
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vstf
+modelsim.ini
+
+# ---- VCS ----
+simv
+simv.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+.vcs_lib_lock
+AN.DB/
+
+# ---- Xcelium / Incisive ----
+xcelium.d/
+INCA_libs/
+*.shm/
+cov_work/
+*.dsn
+*.trn
+
+# ---- Common simulation outputs ----
+*.log
+*.vcd
+*.fsdb
+*.evcd
+waves.vcd
+dump.vcd
+
+# ---- Coverage databases ----
+cov_work/
+urgReport/
+*.ucdb
+*.rcdb
+
+# ---- Editor / OS artifacts ----
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Python cache ----
+__pycache__/
+*.pyc
