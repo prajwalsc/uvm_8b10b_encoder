@@ -1,6 +1,5 @@
 # UVM Verification — 802.3 1000BASE-X 8B/10B Encoder
-
-EE 287 Project · Spring 2026  
+  
 IEEE Std 802.3™-2012, Section 36 — Physical Coding Sublayer (PCS)
 
 ---
